@@ -1,31 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_range.c                                         :+:      :+:    :+:   */
+/*   ft.h                                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: joudart- <joudart-@student.42perpignan.f>  +#+  +:+       +#+        */
+/*   By: fullgreen <fullgreen@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/08/07 19:15:05 by joudart-          #+#    #+#             */
-/*   Updated: 2024/08/07 21:59:59 by joudart-         ###   ########.fr       */
+/*   Created: 2024/07/31 12:09:16 by fullgreen         #+#    #+#             */
+/*   Updated: 2024/07/31 12:10:11 by fullgreen        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-
-int	*ft_range(int min, int max)
-{
-	int	i;
-	int	*mal;
-
-	i = 0;
-	mal = malloc(sizeof(int) * (max - min) - 1);
-	if (mal == NULL)
-		return (NULL);
-	while (max > min)
-	{
-		mal[i] = min;
-		min++;
-		i++;
-	}
-	return (mal);
-}
+void	ft_putchar(char c);
+void	ft_swap(int *a, int *b);
+void	ft_putstr(char *str);
+int		ft_strlen(char *str);
+int		ft_strcmp(char *s1, char *s2);

@@ -6,7 +6,7 @@
 /*   By: joudart- <joudart-@student.42perpignan.f>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/07 19:07:01 by joudart-          #+#    #+#             */
-/*   Updated: 2024/08/07 19:27:12 by joudart-         ###   ########.fr       */
+/*   Updated: 2024/08/07 21:58:55 by joudart-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	ft_ultimate_range(int **range, int min, int max)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	if (min >= max)
