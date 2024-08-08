@@ -6,13 +6,13 @@
 /*   By: fullgreen <fullgreen@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/31 12:25:10 by fullgreen         #+#    #+#             */
-/*   Updated: 2024/08/01 09:54:04 by fullgreen        ###   ########.fr       */
+/*   Updated: 2024/08/07 22:16:08 by joudart-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_ABS_H
 # define FT_ABS_H
 
-# define ABS(x)	(x * (x > 0) - (x < 0)) 
+# define ABS(v) (v < 0 ? -v : v)
 
 #endif
